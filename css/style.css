@@ -134,8 +134,9 @@ h3 { font-size: var(--fs-h3) }
 
 .section__subtitle--work {
     color: var(--clr-accent);
-    font-weight: var(--fw-bold);
+    font-weight: var(--fw-reg);
     margin-bottom: 2em;
+    text-align: center;
 }
 
 /* header */
@@ -308,7 +309,7 @@ header {
 }
 
 .section__title--skill {
-    color: var(--clr-accent);
+    color: var(--clr-light);
     position: relative;
 }
 .skill-list{
@@ -400,28 +401,6 @@ i:focus{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-.portfolio__item {
-    background: var(--clr-accent);
-    overflow: hidden;
-}
-
-.portfolio__img {
-    transition: 
-        transform 750ms cubic-bezier(.5, 0, .5, 1),
-        opacity 250ms linear;
-}
-
-.portfolio__item:focus {
-    position: relative;
-    z-index: 2;
-}
-
-.portfolio__img:hover,
-.portfolio__item:focus .portfolio__img {
-    transform: scale(1.2);
-    opacity: .5;
-}
-
 
 /* footer */
 
@@ -468,21 +447,6 @@ i:focus{
     padding: .5em;
 }
 
-
-/* Individual portfolio item styles */
-
-.portfolio-item-individual {
-    padding: 0 2em 2em;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.portfolio-item-individual p {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 @media (max-width: 600px) {
     .img{
         max-width: 60%;
@@ -495,4 +459,10 @@ i:focus{
     .section__subtitle--intro{
         margin-left: 15px;
     }
+}
+.logo{
+    font-size: 80px;
+}
+footer i:hover{
+    font-size: 200%;
 }
