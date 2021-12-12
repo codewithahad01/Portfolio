@@ -134,7 +134,7 @@ h3 { font-size: var(--fs-h3) }
 
 .section__subtitle--work {
     color: var(--clr-accent);
-    font-weight: var(--fw-reg);
+    font-size: var(--fs-h3);
     margin-bottom: 2em;
     text-align: center;
 }
@@ -465,4 +465,7 @@ i:focus{
 }
 footer i:hover{
     font-size: 200%;
+}
+.about-paragraph{
+    font-size: var(--ff-secondary);
 }
