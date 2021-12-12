@@ -87,7 +87,11 @@ strong { font-weight: var(--fw-bold) }
 .btn:hover {
     transform: scale(1.1);
 }
-
+.btn-resume{
+    margin-top: 20px;
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-bold);
+}
 /* Typography */
 
 h1,
@@ -108,6 +112,7 @@ h3 { font-size: var(--fs-h3) }
 
 .section__title--intro {
     font-weight: var(--fw-reg);
+    margin-left: 150px;
 }
 
 .section__title--intro strong {
@@ -302,19 +307,39 @@ header {
     text-align: center;
 }
 
-.section__title--services {
+.section__title--skill {
     color: var(--clr-accent);
     position: relative;
 }
-
-
-
-
+.skill-list{
+    list-style: none;
+    padding: 10px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 5px;
+    
+}
+.skill-list li{
+    border: 5px solid var(--clr-accent);
+    margin: 10px;
+    background-color: var(--clr-dark);
+    border-radius: 10px;
+    font-weight: var(--fw-bold);
+    /* width: 50%; */
+}
+.skill-list li i{
+    font-size: 100px;
+}
+i:hover,
+i:focus{
+    font-weight: var(--fw-bold);
+}
 
 @media (min-width: 800px) {
     
 
-    
+
     .service + .service {
         margin-left: 2em;
     }
@@ -456,4 +481,18 @@ header {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (max-width: 600px) {
+    .img{
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    .btn-resume{
+        margin-left: 95px;
+        border-radius: 10px;
+    }
+    .section__subtitle--intro{
+        margin-left: 15px;
+    }
 }

@@ -6,7 +6,7 @@
         <title>Ahad Portfolio Website</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
         <!-- Update these with your own fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="css/style.css">
@@ -15,7 +15,7 @@
     <body>
         <header>
             <div class="logo">
-                <img src="img/devjane.png" alt="">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/thealgorithms/thealgorithms-original.svg" />
             </div>
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
@@ -36,31 +36,71 @@
                 Hi, I am <strong>Ahad</strong>
             </h1>
             <p class="section__subtitle section__subtitle--intro">Front-end Software Developer</p>
-            <img src="img/profile2.jpg" alt="a picture of Jane Smith smiling" class="intro__img">
+            <img src="img/profile2.jpg" alt="a picture of Jane Smith smiling" class="intro__img img">
+            <a class="btn btn-resume" href="./resume.pdf">Download Resume</a>
         </section>
         
         
         <!-- About me -->
         <section class="about-me" id="about">
             <h2 class="section__title section__title--about">Who I am</h2>
-            <p class="section__subtitle section__subtitle--about">Technology Enthusiast and Front-end Software Developer</p>
+            <p class="section__subtitle section__subtitle--about">Technology Enthusiast & Front-end Software Developer</p>
             
             <div class="about-me__body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>I am a Front-end Software Developer, Highly creative with the ability to work well within a team. Extensive experience in managing
+                    other Developers and coordinating with them to deliver a single product.</p>
             </div>
             
-            <img src="img/profile2.jpg" alt="Jane leaning against a bus" class="about-me__img">
+            <img src="img/profile2.jpg" alt="Jane leaning against a bus" class="about-me__img img">
          </section>
          
 
         <!-- My Skils -->
         <section class="my-skills" id="skill">
-            <h2 class="section__title section__title--services">My Skills</h2>
-            
-            <div class="services">
-
-            
+            <h2 class="section__title section__title--skill">My Skills</h2>
+            <div class="skills">
+                <ul class="skill-list"> 
+                    <li>
+                        <i class="devicon-html5-plain colored"></i>
+                        <p class="skill-par">HTML</p>
+                    </li>
+                    <li>
+                        <i class="devicon-css3-plain colored"></i>
+                        <p class="skill-par">CSS</p>
+                    </li>
+                    <li>
+                        <i class="devicon-sass-original colored"></i>
+                        <p class="skill-par">SASS</p>
+                    </li>
+                    <li>
+                        <i class="devicon-javascript-plain colored"></i>
+                        <p class="skill-par">JavaScript</p>
+                    </li>
+                    <li>
+                        <i class="devicon-react-original colored"></i>
+                        <p class="skill-par">React</p>
+                    </li>    
+                    <li>
+                        <i class="devicon-redux-original colored"></i>
+                        <p class="skill-par">Redux</p>
+                    </li>
+                    <li>
+                        <i class="devicon-git-plain colored"></i>
+                        <p class="skill-par">Git</p>
+                    </li>
+                    <li>
+                        <i class="devicon-github-original colored"></i>
+                        <p class="skill-par">Github</p>
+                    </li>
+                    <li>
+                        <i class="devicon-python-plain colored"></i>
+                        <p class="skill-par">Python</p>
+                    </li>
+                    <li>
+                        <i class="devicon-mysql-plain colored"></i>
+                        <p class="skill-par">Mysql</p>
+                    </li>
+                </ul>
             </div> <!-- / services -->
         </section>
         
@@ -128,32 +168,36 @@
         <!-- Footer -->
         <footer class="footer">
             <!-- replace with your own email address -->
-            <a href="mailto:hello@jane.dev" class="footer__link">hello@jane.dev</a>
+            <a href="mailto:hello@jane.dev" class="footer__link">abdulahad.ahmadi66@gmail.com</a>
+            <h3>Connect With me</h3>
             <ul class="social-list">
                 <li class="social-list__item">
-                    <a class="social-list__link" href="https://codepen.io">
-                        <i class="fab fa-codepen"></i>
+                    <a class="social-list__link" href="https://github.com/Abdulahadahmadi">
+                        <i class="fab fa-github"></i>
                     </a>
                 </li>
                 <li class="social-list__item">
-                    <a class="social-list__link" href="http://dribbble.com">
-                        <i class="fab fa-dribbble"></i>
+                    <a class="social-list__link" href="https://www.linkedin.com/in/abdul-ahad-ahmadi-1a7295175">
+                        <i class="fab fa-linkedin"></i>
                     </a>
                 </li>
                 <li class="social-list__item">
-                    <a class="social-list__link" href="https://twitter.com">
+                    <a class="social-list__link" href="https://www.instagram.com/ab_ahmadi1998/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/codeWithAhad">
                         <i class="fab fa-twitter"></i>
                     </a>
                 </li>
                 <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com">
-                        <i class="fab fa-github"></i>
+                    <a class="social-list__link" href="https://www.facebook.com/khalid.ahmadi.752861">
+                        <i class="fab fa-facebook-square"></i>
                     </a>
                 </li>
             </ul>
         </footer>
-        
-        
         <script src="js/index.js"></script>
         
     </body>
