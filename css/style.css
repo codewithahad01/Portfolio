@@ -451,13 +451,14 @@ i:focus{
     .img{
         max-width: 60%;
         margin: 0 auto;
+        border-radius: 20px;
     }
     .btn-resume{
         margin-left: 95px;
         border-radius: 10px;
     }
     .section__subtitle--intro{
-        margin-left: 15px;
+        margin-left: 20px;
     }
 }
 .logo{
