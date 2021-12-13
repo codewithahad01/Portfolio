@@ -332,13 +332,14 @@ header {
 .skill-list li i{
     font-size: 100px;
 }
+i:hover,
+i:focus{
+    font-weight: var(--fw-bold);
+}
 
 @media (min-width: 800px) {
     
-    i:hover,
-    i:focus{
-        font-weight: var(--fw-bold);
-    }
+
 
     .service + .service {
         margin-left: 2em;
