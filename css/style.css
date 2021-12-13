@@ -470,7 +470,7 @@ footer i:hover{
 .about-paragraph{
     font-size: var(--ff-secondary);
 }
-@media (max-width: 550px){
+@media (max-width: 500px){
     .section__title--intro{
         margin: 20px;
         padding-top: 0px;
