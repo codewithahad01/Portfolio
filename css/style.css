@@ -473,5 +473,6 @@ footer i:hover{
 @media (max-width: 550px){
     .section__title--intro{
         margin: 20px;
+        padding-bottom: 20px;
     }
 }
