@@ -473,6 +473,9 @@ footer i:hover{
 @media (max-width: 550px){
     .section__title--intro{
         margin: 20px;
-        padding-bottom: 20px;
+        padding-top: 0px;
+    }
+    .btn-resume{
+        margin: 0 auto;
     }
 }
