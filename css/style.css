@@ -460,9 +460,6 @@ i:focus{
     .section__subtitle--intro{
         margin-left: 20px;
     }
-    .section__title--intro{
-        margin-bottom: 10px;
-    }
 }
 .logo{
     font-size: 80px;
@@ -472,4 +469,9 @@ footer i:hover{
 }
 .about-paragraph{
     font-size: var(--ff-secondary);
+}
+@media (max-width: 500px){
+    .section__title--intro{
+        margin-bottom: 10px;
+    }
 }
