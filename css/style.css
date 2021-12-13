@@ -461,7 +461,7 @@ i:focus{
         margin-left: 20px;
     }
     .section__title--intro{
-        margin-top: 0;
+        margin-bottom: 10px;
     }
 }
 .logo{
