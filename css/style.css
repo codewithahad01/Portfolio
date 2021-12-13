@@ -462,7 +462,7 @@ i:focus{
     }
 }
 .logo{
-    font-size: 60px;
+    font-size: 80px;
 }
 footer i:hover{
     font-size: 200%;
@@ -479,6 +479,9 @@ footer i:hover{
         margin-left: 20px;
     }
     .intro{
-        margin-top: -70px;
+        margin-top: -80px;
+    }
+    .logo{
+        font-size: 40px;
     }
 }
